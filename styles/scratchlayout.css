@@ -1,0 +1,29 @@
+.header{
+    grid-area: header;
+    background-color: rgb(176, 173, 173);
+    border-bottom: 3px gray;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+.menu{
+    grid-area: menu;
+    border-right: 5px gray;
+    padding: 25px;
+    background-color: rgb(196, 196, 239);
+    text-align: center;
+    border-radius: 15px;
+    
+}
+.mainbody{
+    grid-area: main;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.mainbody ul, .mainbody ol {
+    text-align: left;
+}
